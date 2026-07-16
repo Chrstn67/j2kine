@@ -46,11 +46,7 @@ export default function Footer() {
               aria-label={`Retour à l'accueil — ${cabinet.nom}`}
             >
               <span className="footer__logo-icon" aria-hidden="true">
-                <img
-                  src="./images/j2kine-logo.jpeg"
-                  alt="Logo J2Kiné"
-                  loading="lazy"
-                />
+                <img src="/j2kine-logo.jpeg" alt="Logo J2Kiné" loading="lazy" />
               </span>
               <strong className="footer__logo-text">{cabinet.nom}</strong>
             </Link>
